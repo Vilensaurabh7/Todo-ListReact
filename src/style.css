@@ -279,7 +279,7 @@ input{
        background:linear-gradient(red, blue) ;
     }
 }
-@media (max-width:568px){
+@media (max-width:578px){
     html{
         font-size: 44%;
       }
@@ -302,7 +302,7 @@ input{
        background:linear-gradient(red, blue) ;
     }
 }
-@media (max-width:540px){
+@media (max-width:500px){
     html{
         font-size: 42%;
       }
@@ -325,12 +325,36 @@ input{
        background:linear-gradient(red, blue) ;
     }
 }
-@media (max-width:200px){
+@media (max-width:420px){
     html{
         font-size: 42%;
       }
       .repeat{
-        margin-left: 14.5%;
+        margin-left: 11%;
+    }
+    h2{
+        width: 65%;
+        padding: 1.2rem;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+}
+
+@media (max-width:300px){
+    html{
+        font-size: 42%;
+      }
+      .repeat{
+        margin-left: 9%;
     }
     h2{
         width: 65%;
