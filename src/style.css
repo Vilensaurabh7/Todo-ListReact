@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.57%;
+}
+.container{
+    text-align: center;
+    /* margin: 1.5rem; */
+    border-radius: 2rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding: .5rem;
+   background:linear-gradient(red, blue) ;
+}
+.top{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin: 1.5rem;
+    padding: .5rem;
+}
+.listHead{
+    margin: .5rem;
+    padding: .5rem;
+    
+}
+h2{
+    border: .1rem solid black;
+    width: 78%;
+    padding: .8rem;
+    text-align: left;
+    margin: .5rem;
+    /* margin-left: 16px; */
+    font-weight: bolder;
+    background-color: white;
+}
+
+input{
+    width: 75%;
+    padding: .8rem;
+}
+.listHead i {
+    position: relative;
+    right: 2.9rem;
+    top: .2rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.inner{
+    display: flex;
+    margin-left: 1rem;
+}
+.inner i{
+    /* margin-top: 6px; */
+    position: relative;
+    right: 5.2rem;
+    top: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: .1rem;
+}
+/* .repeat i{
+    position: relative;
+    right: 5.2rem;
+    top: .2rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: .1rem;
+} */
+.repeat{
+    margin-left: 2.3rem;
+    margin-top: 2.8rem;
+}
+.repeat input{
+    margin-bottom: 1.5rem;
+}
+.listHead i:hover{
+    color: rgb(2, 252, 2);
+    background-color: rgb(8, 12, 12);
+    border-radius: 50%;
+    padding: .3rem;
+    cursor: pointer;
+}
+.btn{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-style: italic;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border-radius: .8rem;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+.fa-trash:hover{
+    color: red;
+    cursor: pointer;
+    background-color: rgb(8, 12, 12);
+    height: 4%;
+    border-radius: 42%;
+    padding: .3rem;
+}
+.fa-pen-to-square:hover{
+    color: yellow;
+    cursor: pointer;
+    background-color: rgb(8, 12, 12);
+    border-radius: 40%;
+   height: 4%;
+    padding: .3rem;
+}
+@media (max-width:998px){
+    html{
+      font-size: 55.5%;
+      color: rgb(89, 0, 255);
+    }
+    input{
+        width: 55%;
+        padding: .8rem;
+    }
+    h2{
+        width: 60%;
+        margin-left: .5rem;
+    }
+    
+}
+@media (max-width:778px){
+    html{
+      font-size: 48%;
+      color: rgb(8, 8, 8);
+    }
+    input{
+        width: 55%;
+        padding: .8rem;
+    }
+    h2{
+        width: 60%;
+        padding: 1rem;
+        /* margin-right: 2px; */
+        /* margin-left: 2px; */
+    }
+}
