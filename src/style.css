@@ -117,7 +117,7 @@ input{
 @media (max-width:1250px){
     html{
       font-size: 55.5%;
-      color: rgb(89, 0, 255);
+/*       color: rgb(89, 0, 255); */
     }
     input{
         width: 55%;
@@ -148,7 +148,7 @@ input{
 @media (max-width:1100px){
     html{
       font-size: 55.5%;
-      color: rgb(12, 228, 102);
+/*       color: rgb(12, 228, 102); */
     }
     input{
         width: 55%;
@@ -179,7 +179,7 @@ input{
 @media (max-width:998px){
     html{
       font-size: 55.5%;
-      color: rgb(89, 0, 255);
+/*       color: rgb(89, 0, 255); */
     }
     input{
         width: 55%;
@@ -209,7 +209,7 @@ input{
 @media (max-width:868px){
     html{
       font-size: 53.5%;
-      color: rgb(250, 193, 5);
+/*       color: rgb(250, 193, 5); */
     }
     input{
         width: 55%;
@@ -237,7 +237,7 @@ input{
 @media (max-width:778px){
     html{
       font-size: 52%;
-      color: rgb(118, 224, 31);
+/*       color: rgb(118, 224, 31); */
     }
     input{
         width: 58%;
@@ -264,7 +264,7 @@ input{
 @media (max-width:668px){
     html{
         font-size: 50%;
-        color: rgb(7, 220, 248);
+/*         color: rgb(7, 220, 248); */
       }
       .repeat{
         margin-left: 14.8%;
@@ -288,7 +288,7 @@ input{
 @media (max-width:568px){
     html{
         font-size: 44%;
-        color: rgb(212, 14, 230);
+/*         color: rgb(212, 14, 230); */
       }
       .repeat{
         margin-left: 14.5%;
@@ -312,7 +312,7 @@ input{
 @media (max-width:500px){
     html{
         font-size: 42%;
-        color: rgb(8, 8, 8);
+/*         color: rgb(8, 8, 8); */
       }
       .repeat{
         margin-left: 14.5%;
