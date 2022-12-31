@@ -113,6 +113,69 @@ input{
    height: 4%;
     padding: .3rem;
 }
+
+@media (max-width:1250px){
+    html{
+      font-size: 55.5%;
+      color: rgb(89, 0, 255);
+    }
+    input{
+        width: 55%;
+        padding: .8rem;
+    }
+    h2{
+        width: 66%;
+        margin-left: .5rem;
+        padding: 1rem;
+    }
+    .repeat{
+        margin-left: 18.5%;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+    
+}
+
+@media (max-width:1100px){
+    html{
+      font-size: 55.5%;
+      color: rgb(12, 228, 102);
+    }
+    input{
+        width: 55%;
+        padding: .8rem;
+    }
+    h2{
+        width: 65%;
+        margin-left: .5rem;
+        padding: 1rem;
+    }
+    .repeat{
+        margin-left: 17.5%;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+    
+}
+
 @media (max-width:998px){
     html{
       font-size: 55.5%;
@@ -123,24 +186,150 @@ input{
         padding: .8rem;
     }
     h2{
-        width: 60%;
+        width: 65%;
         margin-left: .5rem;
+        padding: 1rem;
+    }
+    .repeat{
+        margin-left: 16.5%;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
     }
     
 }
-@media (max-width:778px){
+@media (max-width:868px){
     html{
-      font-size: 48%;
-      color: rgb(8, 8, 8);
+      font-size: 53.5%;
+      color: rgb(250, 193, 5);
     }
     input{
         width: 55%;
+       
+    }
+    h2{
+        width: 64.2%;
+        padding: .9rem;
+    }
+    .repeat{
+        margin-left: 16.2%;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+}
+@media (max-width:778px){
+    html{
+      font-size: 52%;
+      color: rgb(118, 224, 31);
+    }
+    input{
+        width: 58%;
         padding: .8rem;
     }
     h2{
-        width: 60%;
-        padding: 1rem;
-        /* margin-right: 2px; */
-        /* margin-left: 2px; */
+        width: 66%;
+        padding: .9rem;
+    }
+    .repeat{
+        margin-left: 14.5%;
+    }
+    .container{
+        text-align: center;
+        border-radius: 2rem;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+}
+@media (max-width:668px){
+    html{
+        font-size: 50%;
+        color: rgb(7, 220, 248);
+      }
+      .repeat{
+        margin-left: 14.8%;
+    }
+    h2{
+        width: 66%;
+        padding: .9rem;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+}
+@media (max-width:568px){
+    html{
+        font-size: 44%;
+        color: rgb(212, 14, 230);
+      }
+      .repeat{
+        margin-left: 14.5%;
+    }
+    h2{
+        width: 65%;
+        padding: 1.3rem;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size: 42%;
+        color: rgb(8, 8, 8);
+      }
+      .repeat{
+        margin-left: 14.5%;
+    }
+    h2{
+        width: 65%;
+        padding: 1.2rem;
+    }
+    .container{
+        text-align: center;
+        /* margin: 1.5rem; */
+        border-radius: 2rem;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        padding: .5rem;
+       background:linear-gradient(red, blue) ;
     }
 }
